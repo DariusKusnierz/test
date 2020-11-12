@@ -70,9 +70,23 @@ body{
 }
 
 #board{
-    width: 100%;
+    width: 1800px;
     margin-top: 25px;
     height: 500px;
+    margin-left: auto;
+    margin-right: auto;
     border: 5px solid brown;
     background-image: url("images/old_map.png");
+    perspective: 0;
+}
+.man{
+    width: 75px;
+    height: 150px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    /* background-color: #fff; */
+}
+.man>img{
+    width: 100%;
 }

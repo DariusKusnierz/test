@@ -11,12 +11,13 @@
         <div id="title">ClickMachine</div>
         <div id="menu">
             <div id="score">Score: 0</div><div id="upgrades">
-                <div id="up-one" class="upButton">+1</div><div id="up-ten" class="upButton">+10</div><div id="up-fifty" class="upButton">+50</div>
+                <div id="up-one" class="upButton" onclick="morePoint(1)">+1</div><div id="up-ten" class="upButton" onclick="morePoint(10)">+10</div><div id="up-fifty" class="upButton" onclick="morePoint(50)">+50</div>
             </div>
         </div>
         <div id="board">
-            <div class="man"></div>
+            <div class="man" ><img id="imgMan" src="images/manL.png" alt="" onclick="addOneScore()"></div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
